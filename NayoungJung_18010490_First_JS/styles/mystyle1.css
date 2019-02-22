@@ -1,0 +1,252 @@
+html {
+	 box-sizing: border-box;
+}
+
+header h1{
+	text-transform: uppercase;
+	line-height:70%;
+	font-size: 60px;
+	margin-left: 3%;
+	width :360px;
+	height: 5px;
+	word-wrap:break-word;
+}
+
+body{
+	font-family: 'Space Mono', monospace;
+	color: black;
+	background-color: #EAE7DC;
+}
+
+nav a, h3{
+	font-family: 'VT323';
+	font-size:25px;
+	text-transform: uppercase;
+	color:black;
+}
+
+.index {
+	text-align: left ;
+	padding-left:25%;
+	margin-top:10%;
+	margin-bottom:15%;
+
+}
+.box3{
+ padding-right:10px;
+ width:25%;
+ float:left;
+}
+
+
+.inside p,.inside a, .inside h1{
+text-transform: uppercase;
+font-family: 'VT323';
+}
+.inside p{
+padding-top:4%;
+font-size:23px;
+}
+.inside h2{
+line-height: 23px;
+float:center;	
+}
+.inside h1{
+	font-size:45px;
+}
+
+/*----Margin Allign-----*/
+.lra{
+margin-right:auto;
+  margin-left:auto;
+}
+
+/*----button-----*/
+ .btn, .btn1, .btn2{
+  color: black; 
+  border-color: black;
+  display: inline-block;
+  background : none;
+  border-style: solid;
+  text-decoration: none;
+ }
+
+ .btn{
+  font-family: 'VT323';
+  text-transform: uppercase;
+  padding: 10px;
+  float: center;
+  margin-top:20px;
+  border-width:5px;
+  font-size: 20px;
+  margin-left:25%;
+  width:50%;
+  }
+.btn2{
+  padding:5px;
+  float: center;
+  text-align: center;
+  border-width:5px;
+  font-size: 20px;
+  width:20%;
+  }
+
+ .btn1{
+  margin-left:20px;
+  width:25px;
+  height:20px;
+  border-width:2px;
+ }
+
+
+ nav a:hover,.btn:hover,.btn1:hover,.btn2:hover{
+	color:white;
+	border-color:white;
+}
+
+/* ----Navigation------------*/
+  nav {
+    text-align: right;
+    position: fixed relative;
+   	top:0;
+    width: 90%;
+  }
+  nav a {
+    display: inline-block;
+  	margin:35px;
+    text-decoration: none;
+  }
+
+ /* ----Progress Bar-----------*/
+ #myProgress {
+  width:100%;
+  background-color: black;
+}
+
+#myBar{
+  width: 1%;	
+  height: 3px;
+  background-color: #E98074;
+}
+
+#myProgress, #myBar {
+	margin-top: 38px;
+}
+.planet{
+width:40px;
+}
+
+/*-----TOP-----*/
+
+.b1{
+  color: black;
+  border-style: solid;
+  border-width:5px;
+  border-color: #8E8D8A;
+  width:60%;
+  padding-top:30px;
+  line-height: 15px;
+  padding-left:6%;
+  padding-right:6%;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.top h4, #shipButton{
+  margin-left:15%;
+}
+
+#line{
+  width: 75%;	
+  height: 1px;
+  margin-top:40px;
+  background-color: black;
+}
+
+/*-----BOTTOM-----*/
+.bottom {
+  width:73%;
+  padding-top:20px;
+  margin-bottom:20%;
+}
+
+.box1, .box2 {
+  color:black;
+  border-color:  #8E8D8A;
+  padding: 10px;
+  border-style: solid;
+  border-width:5px;
+}
+
+.box1{
+	width:37%;
+	float:left;
+}
+
+.bottom h3 {
+	text-align:left;
+	margin-left:10%;
+	margin-bottom:5%;
+}
+
+li{
+	text-align: left;
+	margin-left:20%;	
+	font-size: 15px;
+}
+.box2{
+	float:right;
+	width:50%;
+
+}
+
+.box2 h4{
+	margin-left:20%;
+	line-height:20px;
+}
+.box2 p{
+	text-align:center;
+	font-size:15px;
+	margin-bottom:13%;
+}
+
+.more h4{
+text-transform: uppercase;
+padding-bottom:10%;
+}
+.t1{
+	width:45%;
+	float:left;
+}
+.t2{
+	width:45%;
+	float:right;
+}
+
+.more img{
+	width:30%;
+	margin-top:5%;
+	margin-left:10%;
+}
+
+#newIdea{
+	width:100%;
+	font-size:15px;
+}
+form legend{
+	padding-top:10%;
+}
+
+footer{
+	text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+footer h1{
+	text-align: right;
+	margin-right: 14%;
+	font-size:50px;
+}
